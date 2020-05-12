@@ -1,4 +1,5 @@
 import React from 'react';
+import NavMenu from './NavMenu';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const HeaderBottom = () => {
@@ -6,31 +7,11 @@ const HeaderBottom = () => {
         <div className="fb-row header-bottom">
             <div className="fb-col-3">
                 <div className="fb-container">
-                    <div className="">
-                        {/* <img src="" alt="business logo"/> */}
-                        <div className="top-menu float-right">
-                            <ul>
-                                <li>
-                                    <a href="/">
-                                        Demos <FontAwesomeIcon icon="chevron-down"/>
-                                    </a>
-                                    <div className="dropdown">
-                                        <ul>
-                                            <li>
-                                                <a href="/">Demo 1</a>
-                                            </li>
-                                            <li>
-                                                <a href="/">Demo 1</a>
-                                            </li>
-                                            <li>
-                                                <a href="/">Demo 1</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                        <img src="" alt="business_logo_wasn't_shared"/>
+                        <span className="nav-toggle">
+                            <FontAwesomeIcon className="hamburger-menu-icon" icon="bars"/>
+                            <NavMenu />
+                        </span>
                 </div>
             </div>
         </div>

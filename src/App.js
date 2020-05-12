@@ -10,13 +10,18 @@ import {
   faEnvelope,
   faShoppingCart,
   faSearch,
-  faChevronDown
+  faChevronDown,
+  faBars,
+  faUserFriends,
+  faStar,
+  faStarHalfAlt
 } from '@fortawesome/free-solid-svg-icons'
 
 // import Glexbox from './Glexbox'
 import Header from './components/layout/header/Header'
 import Home from './components/Home';
 import Service from './components/Services';
+import PopularCourses from './components/PopularCourses';
 import TopCourse from './components/TopCourse';
 import Promotion from './components/Promotion';
 import Footer from './components/layout/footer/Footer';
@@ -34,7 +39,11 @@ library.add(
   faEnvelope,
   faShoppingCart,
   faSearch,
-  faChevronDown
+  faChevronDown,
+  faBars,
+  faUserFriends,
+  faStar,
+  faStarHalfAlt
 )
 
 const App = () => {
@@ -45,6 +54,7 @@ const App = () => {
 
       <Home />
       <Service />
+      <PopularCourses/>
       <TopCourse />
       <Testimony/>
       <Promotion />

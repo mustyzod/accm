@@ -2,7 +2,7 @@ import React from 'react'
 
 const TopCourse = () => {
     return (
-        <section id="popular-course">
+        <section id="top-course">
             <div className="fb-container">
             <div className="grid-wrapper">
                 <h2>TOP COURSES</h2>
