@@ -39,11 +39,6 @@ const NavMenu = () => {
             </li>
             <li>
                 Pages <FontAwesomeIcon icon="chevron-down"/>
-                <div className="dropdown">
-                    <div><a href="/">Demo 1</a></div>
-                    <div><a href="/">Demo 1</a></div>
-                    <div><a href="/">Demo 1</a></div>
-                </div>
             </li>
         </ul>
     </div>

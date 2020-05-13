@@ -4,7 +4,7 @@ const FooterBottom = () => {
     return (
     <div id="footer_bottom">
         <div className="footer-bottom-wrapper">
-        <div className="fb-container">
+        <div className="fb-containerm">
             <div className="fb-row">
                 <div className="fb-col-3">
                     <div className="copyright">
